@@ -1,0 +1,108 @@
+/* html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+} */
+
+.main {
+    size: 980 x 884.83;
+    height: 100%;
+    width: 62%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Times New Roman",Times,serif;
+    float: left;
+    margin: 2%;
+    padding: 0;
+}
+
+.nav {
+    float: left;
+    min-width: 10em;
+    font-size: smaller;
+    margin: 0;
+    min-height: 820px;
+    text-align: center;
+    width: 20%;
+}
+
+.header {
+    display: inline-block;
+    font-family: "Times New Roman",Times,serif;
+    font-size: 1.5em;
+    line-height: 1.7em;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+.section {
+    height: 100%;                                
+    display: grid;     
+    grid-template-areas: initial;           
+    border: solid pink;              
+}
+
+.div {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.border {
+    border: solid 2px blue;
+    margin: 2px;
+    display: inline-table
+}
+
+.box {
+    border: solid 1px lightcoral;
+    margin: 1px;
+    display: inline-table;
+}
+
+/* ul {
+    justify-content: center;
+} */
+
+li {
+    background-color: lightsalmon;
+    margin: 8px;
+    height: 45px;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s ease-in-out;
+}
+
+li:hover {
+    background: lime;
+    transform: scale(2) rotate3d(1, 1, 1, 45deg);
+}
+/* 
+.community {
+    grid-area: community;
+    border: solid hotpink;
+}
+
+.services {
+    grid-area: services;
+    border: royalblue;
+}
+
+.discussion {
+    grid-area: discussion;
+    border: greenyellow;
+}
+
+.housing {
+    grid-area: housing;
+    border: green;
+} */
