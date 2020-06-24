@@ -30,31 +30,32 @@
     width: 20%;
 }
 
-.header {
+header {
     display: inline-block;
     font-family: "Times New Roman",Times,serif;
     font-size: 1.5em;
     line-height: 1.7em;
 }
 
-.container {
+container {
     height: 100%;
     width: 100%;
     max-width: 980px;
     display: grid;
     grid-template-columns: 100px 1fr;
 }
-.section {
+section {
     height: 100%;                                
     display: grid;     
     grid-template-areas: initial;           
     border: solid pink;              
 }
 
-.div {
+div {
     display: block;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 .border {
     border: solid 2px blue;
